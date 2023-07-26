@@ -20,7 +20,7 @@ body {
 }
 
 #preloader  {
-	background: url("../image/loader.gif") no-repeat scroll center center #FFFFFF;
+	background: url("../image/loader.gif") no-repeat scroll center center #111;
 	bottom: 0;
 	height: 100%;
 	left: 0;
@@ -63,7 +63,7 @@ body {
 	left: 0;
 	z-index: -10;
 	zoom: 1;
-	background: url("../image/back-img.png") no-repeat;
+	background: url("../image/back-img.jpg") no-repeat;
 	background-color: #fff;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -157,7 +157,8 @@ body {
 	height: 100%;
 	min-width: 1000px;
 	z-index: -10;
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
+	background-size: 100% 100%;
 }
 .top-part .pic-clock {
 	position: absolute;
@@ -212,7 +213,7 @@ body {
 	width: 56%;
 }
 .first-content .second-page {
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
 	background-size: 100% 100%;
 }
 .second-page .words {
@@ -225,17 +226,17 @@ body {
 	text-align: center;
 }
 .first-content .third-page {
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
 	background-size: 100% 100%;
 	margin-top: -1%;
 }
 .first-content .fourth-page {
-	background: url("../image/木纹+女孩.png") no-repeat;
+	background: url("../image/木纹+女孩.jpg") no-repeat;
 	background-size: 100% 100%;
 	object-fit: cover;
 }
 .first-content .last-page {
-	background: url("../image/8底.png") no-repeat;
+	background: url("../image/8底.jpg") no-repeat;
 	background-size: 100% 100%;
 }
 /* anchor1 */
@@ -243,10 +244,11 @@ body {
 .navblock {
 	margin-top: -2%;
 	height: 120px;
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
+	background-size: 100% 100%;
 }
 .first1-page {
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
 	background-size: 100% 100%;
 	/* margin-top: 5%; */
 }
@@ -398,7 +400,7 @@ body {
 	width: 50%;
 }
 .second1-page {
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
 	background-size: 100% 100%;
 	margin-top: -1%;
 }
@@ -444,7 +446,7 @@ body {
 	/* margin: auto; */
 	position: absolute;
 	margin-top: -5px;
-	/* background: url("../image/底图.png") no-repeat; */
+	/* background: url("../image/底图.jpg") no-repeat; */
 }
 .run-people img {
 	/* width: 30%; */
@@ -485,7 +487,7 @@ body {
 .cards {
 	display: flex;
 	justify-content: center;
-	/* background: url("../image/木纹+女孩.png") no-repeat; */
+	/* background: url("../image/木纹+女孩.jpg") no-repeat; */
 	/* align-items: center; */
 	/* min-height: 55vh; */
 }
@@ -650,7 +652,8 @@ body {
 .rolling-key-words {
 	width: 100%;
 	overflow: hidden;
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
+	background-size: 100% 100%;
 }
 
 .words-fifth {
@@ -1227,7 +1230,7 @@ h3 {
 }
 
 .first2-page {
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
 	background-size: 100% 100%;
 	/* margin-top: 5%; */
 
@@ -1237,7 +1240,7 @@ h3 {
 
 /* 结语 */
 .first6-page {
-	background: url("../image/结语背景.png") no-repeat;
+	background: url("../image/结语背景.jpg") no-repeat;
 	background-size: 100% 100%;
 	height: 100%;
 	
@@ -1289,7 +1292,7 @@ h3 {
 }
 
 .second6-page {
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
 	background-size: 100% 100%;
 	margin-top: -2%;
 	height: 100%;
@@ -1297,7 +1300,8 @@ h3 {
 }
 
 .quan-img {
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
+	background-size: 100% 100%;
 	padding-top: 70px;
 	padding-bottom: 150px;
 	line-height: 0;
@@ -1313,7 +1317,7 @@ h3 {
 
 /* 作者 */
 .footer {
-	/* background: url("../image/back-img.png") no-repeat; */
+	/* background: url("../image/back-img.jpg") no-repeat; */
 	padding-bottom: 130px;
 	padding-top: 80px;
 	font-weight: lighter;
@@ -1385,11 +1389,12 @@ h3 {
 }
 
 .send:after {
-    right: -26px;
-    width: 26px;
-    /* background-color: var(--page-background); */
-	background: url("../image/底图.png") no-repeat;
-    border-bottom-left-radius: 10px
+		right: -26px;
+		width: 26px;
+		/* background-color: var(--page-background); */
+		background: url("../image/底图.jpg") no-repeat;
+		background-size: 100% 100%;
+		border-bottom-left-radius: 10px
 }
 
 .receive {
@@ -1410,6 +1415,7 @@ h3 {
     left: -26px;
     width: 26px;
     /* background-color: var(--page-background); */
-	background: url("../image/底图.png") no-repeat;
+	background: url("../image/底图.jpg") no-repeat;
+	background-size: 100% 100%;
     border-bottom-right-radius: 10px
 }

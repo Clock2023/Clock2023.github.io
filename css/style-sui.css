@@ -14,7 +14,7 @@
     width: 100%;
     perspective: 1em;
     overflow: hidden;
-    background: url(../image/底图.png) 0% 0% / 100% 100% no-repeat;
+    background: url('../image/底图.jpg') 0% 0% / 100% 100% no-repeat;
     /* background-image: radial-gradient(circle farthest-corner at 10% 20%, #61baff 0, #a6effd 90%) */
 }
 
